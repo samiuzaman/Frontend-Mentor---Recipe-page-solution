@@ -64,11 +64,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.frontendmentor.io/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](http://www.w3schools.com/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- ([Frontend Mentor](https://www.frontendmentor.io/))
+- ([W3Schools](https://www.w3schools.com/))
 
 ## Author
 
-- Website - [Frontend Mentor](https://www.frontendmentor.io/)
-- Frontend Mentor - [@samiuzaman](https://www.frontendmentor.io/profile/samiuzaman)
+- Frontend Mentor - [@samiuzaman](https://www.frontendmentor.io/profile/samiuzaman))
 - Twitter - [@samiuzzaman201](https://www.twitter.com/samiuzzaman201)
+- LinkedIn - [@samiuzaman/](https://www.linkedin.com/in/samiuzaman)
