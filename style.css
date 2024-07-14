@@ -1,0 +1,203 @@
+/* Root Section Code Start */
+:root {
+  --whiteColor: hsl(0, 0%, 100%);
+  --rosewhite: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --lightGrey: hsl(30, 18%, 87%);
+  --wengeBrown: hsl(30, 10%, 34%);
+  --darkCharcoal: hsl(24, 5%, 18%);
+  --Nutmeg: hsl(14, 45%, 36%);
+  --darkRaspberry: hsl(332, 51%, 32%);
+}
+/* Root Section Code End */
+/* Reset Code Start */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Reset Code End */
+body {
+  font-family: Outfit;
+  font-weight: 400;
+  background-color: var(--rosewhite);
+}
+.main-container {
+  width: 50%;
+  margin: 0 auto;
+  background-color: var(--whiteColor);
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+/* Heading Div */
+#images-container img {
+  width: 100%;
+  border-radius: 15px;
+}
+.heading-container {
+  width: 88%;
+  margin: 0 auto;
+  text-align: justify;
+}
+.heading-container h1 {
+  font-family: Young Serif;
+  font-size: 30px;
+  text-align: left;
+  margin: 24px 0;
+}
+.heading-container p {
+  font-size: 16px;
+  color: var(--darkCharcoal);
+}
+/* Preparation Time Div */
+.preparation-time {
+  width: 88%;
+  margin: 0 auto;
+  background-color: var(--rosewhite);
+  padding: 30px 25px;
+  border-radius: 15px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.preparation-time h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--darkRaspberry);
+  padding-bottom: 20px;
+}
+.preparation-time ul {
+  padding-left: 10%;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--darkRaspberry);
+}
+.preparation-time ul span {
+  font-weight: bold;
+}
+.preparation-time ul li p {
+  color: var(--wengeBrown);
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+/* Ingredients Div */
+.ingredients-div {
+  width: 88%;
+  margin: 0 auto;
+  color: var(--Nutmeg);
+  margin-bottom: 30px;
+}
+.ingredients-div h2 {
+  font-family: Young Serif;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+.ingredients-div ul {
+  padding-left: 20px;
+}
+.ingredients-div ul li {
+  padding-left: 10px;
+}
+.ingredients-div ul li p {
+  color: var(--wengeBrown);
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+/* Instructions div Code*/
+.Instructions-div {
+  width: 88%;
+  margin: 0 auto;
+  color: var(--Nutmeg);
+  border-top: 1px solid var(--wengeBrown);
+  border-bottom: 1px solid var(--wengeBrown);
+  padding: 25px 0;
+  margin-bottom: 24px;
+}
+.Instructions-div h2 {
+  font-family: Young Serif;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+.Instructions-div ol {
+  padding-left: 20px;
+}
+.Instructions-div ol li {
+  padding-left: 10px;
+}
+.Instructions-div ol li p {
+  color: var(--wengeBrown);
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.Instructions-div ol li p span {
+  font-weight: 700;
+}
+/* Nutrition Div Code*/
+.Nutrition-div {
+  width: 88%;
+  margin: 0 auto;
+}
+.Nutrition-div h2 {
+  font-family: Young Serif;
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: var(--Nutmeg);
+}
+.Nutrition-div p {
+  font-size: 16px;
+  color: var(--wengeBrown);
+}
+.Nutrition-div table {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-top: 24px;
+}
+.Nutrition-div table td {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--wengeBrown);
+}
+.tabel-1nd-data {
+  color: var(--wengeBrown);
+}
+.tabel-2nd-data {
+  color: var(--Nutmeg);
+}
+/* 
+@media screen and (min-width: 476px){
+  body{
+    max-width: 375px;
+    background-color: var(--eggshell);
+  }
+  .main-container{
+    width: 88%;
+    margin: 0 auto;
+  }
+  .Nutrition-div,.Instructions-div , .ingredients-div, .preparation-time, .heading-container, #images-container{
+    width: 100%;
+  }
+} */
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: var(--whiteColor);
+  }
+  .main-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--whiteColor);
+    padding: 0px;
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+  /* Heading Div */
+  #images-container img {
+    width: 100%;
+    border-radius: 0px;
+  }
+}
